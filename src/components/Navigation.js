@@ -8,7 +8,7 @@ export default function Navigation() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-gray-800 border-b border-gray-700 sticky top-0 z-50 shadow-lg">
+    <nav className="sticky top-0 z-50 shadow-lg" style={{ backgroundColor: '#005A9C', borderBottom: '1px solid rgba(255, 255, 255, 0.1)' }}>
       <div className="container mx-auto px-4 py-4 max-w-7xl">
         <div className="flex items-center justify-between">
           <Link
