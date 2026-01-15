@@ -15,9 +15,9 @@ export default function Navigation() {
             href="/"
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            <div className="bg-white rounded-lg shadow-md">
+            <div className="rounded-lg shadow-md">
               <Image
-                src="https://res.cloudinary.com/dtqvb1uhi/image/upload/v1765800123/logo_xbm99t.png"
+                src="/image/logo.png"
                 alt="OCEANE GROUP Logo"
                 width={120}
                 height={60}
